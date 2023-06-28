@@ -6,8 +6,8 @@ const PRIVATE_KEY = process.env.PRIVATE_KEY;
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
   networks: {
-    fantom: {
-      url: "https://fantom-mainnet.public.blastapi.io/",
+    zetachain_Athens_testnet: {
+      url: "https://api.athens2.zetachain.com/evm/",
       accounts: [PRIVATE_KEY ?? "undefined"],
     }
 
